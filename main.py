@@ -7,4 +7,4 @@ def diff(a, b):
 def symmetricdiff(a,b):
     return diff(union(a,b),intersect(a,b))
 def prod(a,b):   
-    reutnr [(i, j) for i in a for j in b]
+    return [(i, j) for i in a for j in b]
